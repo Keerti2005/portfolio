@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this CSS somewhere global, like globals.css or in a CSS module */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent horizontal scroll globally */
+}
+
+/* Make sure the navbar container never overflows */
+nav {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* On smaller devices, make the ul items stack vertically with full width */
+@media (max-width: 767px) {
+  ul#navbar-default {
+    width: 100%;
+    max-height: none !important; /* override max-height if any */
+    opacity: 1 !important; /* make sure visible */
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  ul#navbar-default li {
+    width: 100%;
+  }
+
+  ul#navbar-default li a div {
+    width: 100%;
+  }
+}
+
+/* On medium and larger devices, navbar items are inline */
+@media (min-width: 768px) {
+  ul#navbar-default {
+    flex-direction: row !important;
+    max-height: none !important;
+    opacity: 1 !important;
+  }
+
+  ul#navbar-default li {
+    width: auto;
+  }
+}
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  // padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
