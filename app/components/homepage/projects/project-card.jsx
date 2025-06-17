@@ -35,38 +35,45 @@ function ProjectCard({ project }) {
 
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-            <span className="text-gray-400">'</span>
+            <span className="text-gray-400">&apos;</span>
             <span className="text-amber-300">{project.name}</span>
-            <span className="text-gray-400">',</span>
+            <span className="text-gray-400">&apos;,</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">tools:</span>
-            <span className="text-gray-400"> ['</span>
+            <span className="text-gray-400"> [</span>
             {tools.map((tag, i) => (
               <React.Fragment key={i}>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">{tag}</span>
-                {i !== tools.length - 1 && <span className="text-gray-400">', '</span>}
+                <span className="text-gray-400">&apos;</span>
+                {i !== tools.length - 1 && <span className="text-gray-400">, </span>}
               </React.Fragment>
             ))}
-            <span className="text-gray-400">'],</span>
+            <span className="text-gray-400">],</span>
           </div>
 
           {project.role && (
             <div>
               <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
+              <span className="text-gray-400">&apos;</span>
               <span className="text-orange-400">{project.role}</span>
-              <span className="text-gray-400">,</span>
+              <span className="text-gray-400">&apos;,</span>
             </div>
           )}
 
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
-            <span className="text-cyan-400">{' ' + project.description}</span>
-            <span className="text-gray-400">,</span>
+            <span className="text-gray-400">&apos;</span>
+            <span className="text-cyan-400">{project.description}</span>
+            <span className="text-gray-400">&apos;,</span>
           </div>
 
-<div><span className="text-gray-400">{"};"}</span></div>        </code>
+          <div>
+            <span className="text-gray-400">{'};'}</span>
+          </div>
+        </code>
 
         {/* Buttons */}
         <div className="flex gap-4 mt-4">
