@@ -1,13 +1,14 @@
-// app/page.tsx or pages/index.tsx (depending on file structure)
+// app/page.jsx
+"use client";
 
-import AboutSection from "./components/homepage/about";
-import ContactSection from "./components/homepage/contact";
-import Education from "./components/homepage/education";
-import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
-import Projects from "./components/homepage/projects";
+import AboutSection from "./components/homepage/about";
+import Experience from "./components/homepage/experience";
 import Skills from "./components/homepage/skills";
+import Projects from "./components/homepage/projects";
 import Achievements from "./components/homepage/achievement/achievement-section";
+import Education from "./components/homepage/education";
+import ContactSection from "./components/homepage/contact";
 
 export default function Home() {
   return (
