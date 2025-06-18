@@ -1,3 +1,5 @@
+'use client';
+
 import { FaArrowRight } from 'react-icons/fa';
 import AchievementCard from './achievement-card';
 import { achievements } from '@/utils/data/achievement'; // ✅ make sure this matches the export

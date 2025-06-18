@@ -1,3 +1,5 @@
+'use client';
+
 function AchievementCard({ achievement, index }) {
   const titleColor = index % 2 === 0 ? "text-pink-500" : "text-green-400";
 
