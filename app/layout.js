@@ -8,10 +8,10 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio - Keerti Madhuvantika",
+  title: "Portfolio - Keerti Madhuvantika A",
   description:     "This is the portfolio of Keerti Madhuvantika. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 
-  profile: "/mw.jpg",
+  profile: "public/mw.jpg",
 };
 
 export default function RootLayout({ children }) {
