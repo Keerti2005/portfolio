@@ -15,7 +15,7 @@ export const projectsData = [
         tools: ['MAX78000FTHR', 'Embedded Systems and IoT', 'AI', 'MERN Stack', 'Eclipse MaximSDK'],
         role: 'Embedded Systems & Web Developer',
         code: 'https://github.com/Keerti2005/Metrominds',
-        demo: 'https://metro-minds.vercel.app/',
+        demo: '',
     },
     {
         id: 3,
