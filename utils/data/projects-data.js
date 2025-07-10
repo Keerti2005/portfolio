@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['MERN Stack', 'AI', 'Embedded Systems and IoT', 'Arduino IDE'],
         role: 'Full Stack Developer',
         code: 'https://github.com/Keerti2005/healthcare-typescript',
-        demo: '',
+        demo: 'https://medtrack-world.vercel.app/',
     },
     {
         id: 2,
