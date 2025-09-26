@@ -13,5 +13,5 @@ export const personalData = {
   devUsername: "said7388",
    github: 'https://github.com/Keerti2005',
   linkedIn: 'https://www.linkedin.com/in/keerti-madhuvantika-a-1bba20259/',
-  resume: "https://drive.google.com/file/d/1Cw_n3rS6ePddAja1CMPR2w5vb3pqIphf/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1tNtGeGgqps_vx2WW1LUF1lru7xjH05bf/view?usp=sharing"
 }
