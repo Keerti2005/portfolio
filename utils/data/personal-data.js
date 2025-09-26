@@ -2,7 +2,7 @@ export const personalData = {
   name: "KEERTI MADHUVANTIKA A",
   profile: '/mw.jpg',
   designation: "Full Stack Developer",
-  description: "My name is Keerti Madhuvantika A, and I am a passionate and dedicated programmer with a strong interest in both full stack development. I’m a quick learner with a self-driven attitude, always eager to explore new technologies and solve challenging problems. I enjoy working across various layers of technology starting from low-level hardware programming to building scalable web applications. With a solid foundation in JavaScript and experience in full stack development, I am open to job opportunities that align with my skills in both embedded systems and software engineering.",
+  description: "My name is Keerti Madhuvantika A, and I am a passionate and dedicated programmer with a strong interest in full stack development. I’m a quick learner with a self-driven attitude, always eager to explore new technologies and solve challenging problems. I enjoy working across various layers of technology like building scalable web applications. With a solid foundation in JavaScript and experience in full stack development, I am open to job opportunities that align with my skills in both full stack development and software engineering.",
   email: 'keertimadhuvantika.a2022ece@sece.ac.in',
   phone: '8825962136',
   address: 'Pollachi, Coimbatore, Tamil Nadu, India ',
