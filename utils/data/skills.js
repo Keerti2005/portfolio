@@ -1,8 +1,7 @@
 export const skillsData = [
    'Java',
-  'C',
-  'Embedded C',
   'Python',
+  'C',
   'React',
   'Node',
   'MERN',
@@ -10,7 +9,7 @@ export const skillsData = [
   'JavaFx',
   'DSA',
   'OOPs',
-  'Embedded Systems and IoT',
+ 
 
   'MySQL',
   'MongoDB',
@@ -18,15 +17,10 @@ export const skillsData = [
   'Windows',
   'Linux',
   
-  'Arduino IDE',
+  
     'Eclipse',
 
   'IntelliJ IDEA',
-
-   'STM32 Cube IDE',
-  'SciLab',
-  
-  'MATLAB',
  
   
   'Figma',

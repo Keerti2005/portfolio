@@ -4,7 +4,7 @@ export const educations = [
     title: "Bachelor Degree",
     duration: "2022 - 2026",
     institution: "Sri Eshwar College of Engineering",
-    cgpa:"9.08"
+    cgpa:"9.07"
   },
   {
     id: 2,

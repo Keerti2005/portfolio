@@ -114,10 +114,7 @@ export const skillsImage = (skill) => {
       return mern;
       case 'intellij idea':
       return int;
-      case 'embedded systems and iot':
-      return es;
-      case 'embedded c':
-      return emc;
+      
       case 'windows':
       return win;
       case 'colab':
@@ -126,18 +123,15 @@ export const skillsImage = (skill) => {
       return oops;
       case 'vscode':
       return vs;
-      case 'scilab':
-      return sci;
+      
       case 'dsa':
       return dsa;
-      case 'arduino ide':
-      return ard;
+      
       case 'eclipse':
       return ex;
       case 'javafx':
       return fx;
-      case 'stm32 cube ide':
-      return stm;
+      
     case 'illustrator':
       return illustrator;
     case 'adobe xd':
@@ -148,8 +142,7 @@ export const skillsImage = (skill) => {
       return css;
     case 'angular':
       return angular;
-      case 'keil':
-      return keil;
+      
     case 'javascript':
       return javascript;
     case 'next js':

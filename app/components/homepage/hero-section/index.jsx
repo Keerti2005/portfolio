@@ -108,7 +108,7 @@ function HeroSection() {
                 <span className="text-white">skills:</span>
                 <span className="text-gray-400">[</span>
                 <span className="text-amber-300">
-                  &apos;MERN&apos;, &apos;Embedded Systems and IoT&apos;, &apos;Java&apos;, &apos;C&apos;, &apos;Embedded C&apos;, &apos;React&apos;, &apos;Express&apos;, &apos;MySQL&apos;, &apos;MongoDB&apos;
+                  &apos;MERN&apos;,  &apos;Java&apos;, &apos;Python&apos;, &apos;C&apos;, &apos;React&apos;, &apos;Express&apos;, &apos;MySQL&apos;, &apos;MongoDB&apos;
                 </span>
                 <span className="text-gray-400">],</span>
               </div>
